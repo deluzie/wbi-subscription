@@ -14,3 +14,8 @@
 #nav-text a {
   color: white;
 }
+
+#nav-text a:hover {
+    color: #d3a42b;
+    transition: 0.8s;
+  }

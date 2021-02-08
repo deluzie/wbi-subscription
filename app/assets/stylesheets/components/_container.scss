@@ -6,17 +6,37 @@ h1{
   color: $light-gray;
 }
 
+
+.background-image {
+  display: flex;
+  justify-content: center;
+  background-image: url('cover.png');
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+
 .page-container {
-  padding-top: 40px;
+  flex-grow: 1;
+  padding-top: 25vh;
+  padding-bottom: 300px;
   display: flex;
   justify-content: center;
   margin: auto;
-  width: 90%;
   height: 100%;
 }
 
 .signup {
   display: flex;
   justify-content: center;
-  width: 100%;
 }
+
+.main-content {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
