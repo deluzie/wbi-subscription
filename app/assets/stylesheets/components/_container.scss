@@ -1,0 +1,22 @@
+body {
+  background-color: $blackish;
+}
+
+h1{
+  color: $light-gray;
+}
+
+.page-container {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+  height: 100%;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

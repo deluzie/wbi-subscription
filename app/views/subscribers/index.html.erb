@@ -1,8 +1,12 @@
-<% if cookies[:saved_subscriber] %>
-Thanks for signing up!
-<% else %>
-  <h1>Sign up to be notified once our book is published:</h1>
-  <%= form_for @subscriber do |f| %>
-    <%= f.email_field :email, placeholder: "Email" %>
+<div class="page-container col-sm-8">
+  <div class="row signup">
+    <% if cookies[:saved_subscriber] %>
+      Thanks for signing up!
+    <% else %>
+      <h1>Hier den Newsletter abonnieren:</h1>
+    <%= form_for @subscriber do |f| %>
+      <%= f.email_field :email, placeholder: "Email" %>
+    <% end %>
   <% end %>
-<% end %>
+  </div>
+</div>
