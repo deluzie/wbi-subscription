@@ -13,9 +13,14 @@
 
   <body>
     <%= render 'shared/navbar' %>
-    <% if notice %>
-      <%= notice %>
-    <% end %>
-    <%= yield %>
+    <div class="background-image">
+      <div class="main-content">
+        <% if notice %>
+          <%= notice %>
+        <% end %>
+        <%= yield %>
+      </div>
+    </div>
+    <%= render 'shared/footer' %>
   </body>
 </html>
