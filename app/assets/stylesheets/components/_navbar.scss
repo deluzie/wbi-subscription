@@ -1,6 +1,6 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: blackish;
+  background: $blackish;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -13,20 +13,23 @@
 
 #nav-text a {
   color: white;
+  font-size: 16px;
 }
 
 #nav-text a:hover {
-  color: #d3a42b;
+  letter-spacing: 3px;
   transition: 0.6s;
 }
 
 .kontakt {
+  font-size: 16px;
   color: white;
 }
 
 .kontakt:hover {
-  color: #d3a42b;
+  letter-spacing: 3px;
   transition: 0.6s;
   text-decoration: none;
+  color: white;
 }
 

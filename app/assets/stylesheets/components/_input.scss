@@ -1,8 +1,37 @@
 #new_subscriber {
   width: 100%;
-  padding-top: 30px;
+  padding-top: 24px;
 }
 
 #subscriber_email {
-  width: 100%;
+  border: 1px solid white;
+  width: 45%;
+  border-radius: 6px;
+  padding: 4px 4px 4px 10px;
+}
+
+#subscriber_email:focus {
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: #d3a42b;
+  color: $blackish;
+  opacity: 1;
+  width: 80%;
+}
+
+#subscriber_email:hover {
+  border: 1px solid #d3a42b;
+  border-radius: 6px;
+  background-color: #d3a42b;
+  transition: 0.8s;
+  color: $blackish;
+  opacity: 1;
+  width: 80%;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
