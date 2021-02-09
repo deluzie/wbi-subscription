@@ -1,16 +1,23 @@
-<div class="page-container col-sm-8">
-  <div class="row signup">
-
-      <% if cookies[:saved_subscriber] %>
-        Vielen Dank!
-      <% else %>
-        <h1>
-          Hier den Newsletter mit Informationen über den Veröffentlichungstermin der Buchpublikation <i>Übergangsräume. Die Bushaltestellen auf der Berliner Stadtautobahn</i> und die dazugehörigen Veranstaltungsformate abonnieren:
-        </h1>
+<div class="page-container">
+  <div class="row landscape">
+    <div class="signup col-sm-5">
+      <div>
+        <h1><i>Übergangsräume.</i> <br>Die Bushaltestellen auf der Berliner Stadtautobahn </h1>
+        <p>Hier den Newsletter mit Informationen über den Veröffentlichungstermin der Buchpublikation und die dazugehörigen Veranstaltungsformate abonnieren:</p>
         <%= form_for @subscriber do |f| %>
           <%= f.email_field :email, placeholder: "bus@haltestellen.com" %>
         <% end %>
-      <% end %>
-
+        <% if notice %>
+          <div class="notice">
+            <%= notice %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+    <div class="col-sm-7">
+      <%= image_tag("cover_iso.png", class: "image") %>
+    </div>
   </div>
 </div>
+
+

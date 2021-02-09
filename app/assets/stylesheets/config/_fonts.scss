@@ -3,9 +3,26 @@
 
 @import url("https://use.typekit.net/abw2ajm.css");
 
+@import url("https://use.typekit.net/abw2ajm.css");
+
 // Define fonts for body and headers
 $body-font: "Pragmatica", "Helvetica", "sans-serif";
 $headers-font: "Pragmatica", "Helvetica", "sans-serif";
+
+
+body h1 {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 40px;
+  line-height: 48px;
+  padding-bottom: 15px;
+}
+
+body p {
+  color: white;
+  opacity: 0.9;
+  font-size: 14px;
+}
 
 
 // To use a font file (.woff) uncomment following lines
