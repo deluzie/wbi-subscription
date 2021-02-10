@@ -7,6 +7,13 @@
 $body-font: "Pragmatica", "Helvetica", "sans-serif";
 $headers-font: "Pragmatica", "Helvetica", "sans-serif";
 
+
+body h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
 body h2 {
   color: white;
 }
@@ -14,6 +21,11 @@ body h2 {
 body p {
   color: white;
   opacity: 0.9;
+}
+
+body ul {
+  color: white;
+  font-size: 14px;
 }
 
 body {
@@ -29,8 +41,12 @@ body {
       padding-bottom: 5px;
     }
 
+    h3 {
+      font-size: 18px;
+    }
+
     a {
-      font-size: 10px;
+      font-size: 8px;
     }
 
     form {
@@ -38,8 +54,8 @@ body {
       font-size: 10px;
     }
 
-    p {
-      font-size: 10px;
+    p, ul{
+      font-size: 10px !important;
     }
 
     .page-container {
@@ -48,6 +64,15 @@ body {
 
     .signup {
       padding-left: 20px;
+    }
+
+    .content {
+      padding-left: 12px;
+      padding-top: 24px;
+    }
+
+    .news p {
+      line-height: 1.5;
     }
   }
 }
