@@ -1,6 +1,8 @@
 .footer {
   border-top: 1px solid white;
   color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-content {
@@ -11,4 +13,19 @@
 .impressum-element {
   padding-top: 24px;
   font-size: 13px !important;
+}
+
+.footer-agb {
+  padding-top: 44px;
+  padding-right: 24px;
+}
+
+.footer-agb a {
+  color: white;
+}
+
+.footer-agb a:hover {
+  text-decoration: none;
+  letter-spacing: 3px;
+  transition: 0.6s;
 }
