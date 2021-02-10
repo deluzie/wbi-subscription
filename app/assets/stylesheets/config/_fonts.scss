@@ -46,7 +46,7 @@ body {
     }
 
     a {
-      font-size: 10px;
+      font-size: 8px;
     }
 
     form {
@@ -64,6 +64,15 @@ body {
 
     .signup {
       padding-left: 20px;
+    }
+
+    .content {
+      padding-left: 12px;
+      padding-top: 24px;
+    }
+
+    .news p {
+      line-height: 1.5;
     }
   }
 }
