@@ -1,5 +1,7 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon linearGradient">
-  <a class="kontakt" href="/kontakt">Kontakt</a>
+<!-- <div class="navbar navbar-expand-sm navbar-light navbar-lewagon linearGradient align-items-center">
+  <div id="nav-text">
+    <a href="/">ÜBERGANGSRÄUME</a>
+  </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -8,11 +10,22 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active" id="nav-text">
-        <a class="nav-link" href="/buch">das Buch</a>
+        <a class="nav-link" href="/buch">DAS BUCH</a>
       </li>
       <li class="nav-item" id="nav-text">
-        <a class="nav-link" href="/news">News</a>
+        <a class="nav-link" href="/news">NEWS</a>
+      </li>
+      <li class="nav-item" id="nav-text">
+        <a class="nav-link" href="/kontakt">KONTAKT</a>
       </li>
     </ul>
   </div>
+</div> -->
+
+
+<div class="navbar">
+  <%= link_to "ÜBERGANGSRÄUME", root_path, class: "nav-link web-title" %>
+  <%= link_to "DAS BUCH", href="/buch", class: "nav-link title-element" %>
+  <%= link_to "NEWS", href="/news", class: "nav-link title-element" %>
+  <%= link_to "KONTAKT", href="/kontakt", class: "nav-link title-element" %>
 </div>
