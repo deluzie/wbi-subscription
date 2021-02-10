@@ -7,14 +7,6 @@
 $body-font: "Pragmatica", "Helvetica", "sans-serif";
 $headers-font: "Pragmatica", "Helvetica", "sans-serif";
 
-
-body h1 {
-  letter-spacing: 0.5px;
-  font-size: 40px;
-  line-height: 48px;
-  padding-bottom: 15px;
-}
-
 body h2 {
   color: white;
 }
@@ -22,9 +14,43 @@ body h2 {
 body p {
   color: white;
   opacity: 0.9;
-  font-size: 14px;
 }
 
+body {
+  @media only screen and (min-width: 1300px) {
+    p {
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    h2 {
+      font-size: 18px !important;
+      padding-bottom: 5px;
+    }
+
+    a {
+      font-size: 10px;
+    }
+
+    form {
+      padding-bottom: 40px;
+      font-size: 10px;
+    }
+
+    p {
+      font-size: 10px;
+    }
+
+    .page-container {
+      margin-top: 65px;
+    }
+
+    .signup {
+      padding-left: 20px;
+    }
+  }
+}
 
 
 // To use a font file (.woff) uncomment following lines

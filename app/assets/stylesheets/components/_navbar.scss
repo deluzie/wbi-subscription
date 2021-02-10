@@ -1,15 +1,14 @@
 .navbar {
+  background-color: $blackish;
   border-bottom: 1px solid white;
   position: sticky;
   top: 0;
   z-index: 100;
-  padding-top: 13px;
   display: flex;
   align-items: center;
 }
 
 .nav-link {
-  font-family: adobe-caslon-pro;
   font-weight: 400;
   font-style: normal;
 }
@@ -36,13 +35,3 @@
   text-decoration: none;
 }
 
-.linearGradient {
-   background-image: linear-gradient(
-      to bottom,
-      rgb(19, 19, 19),
-      rgba(19, 19, 19, 0.9),
-      rgba(19, 19, 19, 0.7),
-      rgba(19, 19, 19, 0.5),
-      rgba(19, 19, 19, 0)
-   );
-}
