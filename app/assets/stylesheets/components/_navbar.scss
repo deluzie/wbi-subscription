@@ -4,13 +4,11 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  padding-top: 10px;
   display: flex;
   align-items: center;
 }
 
 .nav-link {
-  font-family: adobe-caslon-pro;
   font-weight: 400;
   font-style: normal;
 }
@@ -27,12 +25,12 @@
 }
 
 .web-title {
-  color: blue;
+  color: #167ffb;
 }
 
 .web-title:hover {
   color: transparent;
-  text-shadow: 0px 0px 14px blue;
+  text-shadow: 0px 0px 14px #167ffb;
   transition: 0.6s;
   text-decoration: none;
 }

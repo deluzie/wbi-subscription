@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
   def buch
     render "/buch"
   end
-  def agb
-    render "/agb"
+  def impressum
+    render "/impressum"
   end
 end
