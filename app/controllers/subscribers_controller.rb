@@ -9,7 +9,7 @@ class SubscribersController < ApplicationController
       cookies[:saved_lead] = true
       redirect_to root_path, notice: "Vielen Dank!"
     else
-      redirect_to root_path, notice: "Etwas hat leider nicht funktioniert."
+      redirect_to root_path, notice: "Das hat leider nicht funktioniert."
     end
   end
 
