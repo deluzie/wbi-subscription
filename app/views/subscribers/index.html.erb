@@ -1,21 +1,22 @@
-<div class="page-container">
-  <div class="row landscape">
-    <div class="col-sm-6">
-      <%= image_tag("cover_iso.png", class: "image") %>
-    </div>
-    <div class="signup col-sm-6">
-      <div>
-        <h2><i>Übergangsräume.</i> <br>Die Bushaltestellen auf der Berliner Stadtautobahn </h2>
-        <p>Hier den Newsletter mit Informationen über den Veröffentlichungstermin der Buchpublikation und die dazugehörigen Veranstaltungsformate abonnieren:</p>
-        <%= form_for @subscriber do |f| %>
-          <%= f.email_field :email, placeholder: "bus@haltestellen.com" %>
-        <% end %>
-        <% if notice %>
-          <div class="notice">
-            <%= notice %>
-          </div>
-        <% end %>
+  <div class="page-container">
+    <div class="row landscape justify-content-center">
+      <div class="col-sm-6">
+        <%= image_tag("cover_iso.png", class: "image") %>
+      </div>
+      <div class="signup col-sm-5">
+        <div>
+          <h2><i>Übergangsräume.</i> <br>Die Bushaltestellen auf der Berliner Stadtautobahn </h2>
+          <p>Hier den Newsletter mit Informationen über den Veröffentlichungstermin der Buchpublikation und die dazugehörigen Veranstaltungsformate abonnieren:</p>
+          <%= form_for @subscriber do |f| %>
+            <%= f.email_field :email, placeholder: "bus@haltestellen.com" %>
+          <% end %>
+          <% if notice %>
+            <div class="notice">
+              <%= notice %>
+            </div>
+          <% end %>
+        </div>
       </div>
     </div>
   </div>
-</div>
+
